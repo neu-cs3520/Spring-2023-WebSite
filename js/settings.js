@@ -3,8 +3,8 @@
 var vars = {
   'classNum': 'CS3520',
   'className': 'Programming in C++',
-  'semester': 'Fall 2022',
-  'section': '',
+  'semester': 'Spring 2023',
+  'section': '1',
 };
 
 // FIXME

@@ -11,7 +11,6 @@ end
 gem "kramdown-parser-gfm"
 
 gem "github-pages", group: :jekyll_plugins
-gem "lms-api"
 gem "just-the-docs"
 
 gem "webrick", "~> 1.7"
