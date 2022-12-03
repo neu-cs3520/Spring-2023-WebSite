@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--
+	Useful classes...
+	 school-section: creates a new block, with h1 for title
+	 keyvalue: within a school-section, creates a table with first column bolded
+	           and no borders
+-->
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title></title>
+
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="img/favicon.ico" type="image/x-icon">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/custom.css" rel="stylesheet">
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+	  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+	  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+</head>
+<body>
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container">
+			<button type="button" class="navbar-toggle navbar-right" data-toggle="collapse" data-target="#myNavbar" id="burger">
+				<span class="icon-bar" style="background-color: white"></span>
+				<span class="icon-bar" style="background-color: white"></span>
+				<span class="icon-bar" style="background-color: white"></span>
+			</button>
+
+			<div class="navbar-header">
+				<a class="navbar-brand" href="index.html">
+					<span class="hidden-xs" id="brand-big"></span>
+					<span class="visible-xs" id="brand-small"></span>
+				</a>
+			</div>
+
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav navbar-right">
+				</ul>
+			</div>
+
+		</div>
+	</nav>
+
+	<div class="container">
+		<div class="school-header">
+			<a href="https://www.ccis.northeastern.edu" target="_blank"><img id="logo" class="img-responsive" src="img/NU_khoury.png" /></a>
+
+			<div id="info" class="row">
+				<div class="col-md-2"><span class="var-semester"></span></div>
+				<div class="col-md-2"><span class="var-section"></span></div>
+			</div>
+		</div>
+
+		<!-- FIXME -->
+<div class="school-section">
+<h1>Description</h1>
+<p>
+
+This course examines how to program in C++ in a robust and safe manner. C++ is an unsafe programming language, meaning each programmer — not the programming language — must enforce basic invariants concerning abstractions and modularity. The purpose of this course is to introduce students to the programming in C++ and its pitfalls; how standard libraries try to eliminate these pitfalls and fail; and what kind of tools programmers use to overcome the pitfalls.
+
+The course reviews basics, including scoping, typing, and primitive data structures. Discusses data types (primitive, array, structure, class, string); addressing/parameter mechanisms (value, pointer, reference); stacks; queues; linked lists; binary trees; hash tables; and the design of classes and class inheritance, emphasizing single inheritance. Considers the instantiation of objects, the trade-offs of stack vs. heap allocation, and the design of constructors and destructors. Emphasizes the need for a strategy for dynamic memory management. Addresses function and operator overloading; templates, the Standard Template Library (STL), and the STL components (containers, generic algorithms, iterators, adaptors, allocators, function objects); streams; exception handling; and system calls for processes and threads.
+<br>
+</p>
+<h1>Learning Objectives</h1>
+<!-- <p style="text-decoration: underline">Computer Science</p> -->
+<ul>
+  <li>Learn how to program C++ in a clear, robust, efficient, and safe manner.</li>
+  <li>Learn about simple and complex data structures in C++.</li>
+  <li>Learn about memory allocation and deallocation from both the C and C++ perspectives.</li>
+  <li>Develop a strategy for memory management that will avoid leaks.  </li>
+  <li>Learn how the features of C++ may be used in a productive way.</li>
+  <li>Learn about the pitfalls and bugs that may occur if C++ is used improperly.</li>
+  <li>Become knowledgeable about system libraries, especially, the STL.</li>
+  <li>Become knowledgeable using a unit testing framework.</li>
+  <li>Become knowledgeable using a low-level debugger.</li>
+  <li>Become knowledgeable using a memory debugger.</li>
+</ul>
+</div>
+
+	<div class="school-section">
+		<h1> Textbooks</h1>
+		There is no required textbook for this course. But the following books closely follow the weekly course schedule:
+		<ul>
+			<li>Murach and Delamater - Murach's C++ Programming, 2018</a></li>
+			<li>Deitel and Deitel - C++ How to Program, 9th or 10th edition</a></li>
+		</ul>
+		We also use material from th following reference books during our lectures:
+		<ul>
+			<li>Bjarne Stroustrup - The C++ Programming Language: C++11, 4th edition, ISBN-13: 978-0321563842, Addison-Wesley Professional</a></li>
+			<li>Richard Reese - Understand and Using C Pointers: Core Techniques for Memory Management, 1st edition, ISBN-13: 978-1449344184</a></li>
+			<li>Savitch and Mock - Problem Solving with C++, 10th edition, ISBN-13: 978-0134448282</a></li>
+		</ul>
+		In case you are interested in learning more advanced C++ stuff, here are some recommended books:
+		<ul>
+			<li>Effective Modern C++: 42 Specific Ways to Improve Your Use of C++11 and C++14 (By Scott Meyers), Oreilly</a></li>
+			<li>Advanced C++ Programming Cookbook (By Rian Quinn), Packt Publishing</a></li>
+			<li>Expert C++ (By Vardan Grigoryan, Shunguang Wu), Packt Publishing</a></li>
+			<li>C++ Templates: The Complete Guide (By David Vandevoorde, Nicolai M. Josuttis, Douglas Gregor), 2nd Edition, Addison-Wesley Professional</a></li>
+			<li>C++ Concurrency in Action, (By Anthony Williams), Second Edition, Manning Publications</a></li>
+			</ul>
+
+		<strong>Note:</strong> NU students have free online access to most or all O'Reilly books via the NU
+		Library. Go to <a
+			href="https://library.northeastern.edu/research/resources/items/oreilly-for-higher-education-previously-safari-books-online">https://library.northeastern.edu/research/resources/items/oreilly-for-higher-education-previously-safari-books-online</a>
+		and follow the links. If asked to select your institution, select "None of the Above", which
+		is the first item on the menu, and log in with your northeastern.edu email address. This
+		will get you full access, and will also keep track of your favorites, etc.
+
+		<h1> List of Topics </h1>
+		The following (tentative) schedule is currently planned:
+    <ul>
+<li> Week 1: Basic Linux Commands; Using Makefile; Using GitHub; Hello World! Program</li>
+<li> Week 2: Variables, data types and operations; Using libraries like string and cmath; Conditional statements and loops</li>
+<li> Week 3: Number systems and bit-wise operations; Basic debugging; Working with iostream, file stream, string stream; Introduction to pointers</li>
+<li> Week 4: Built-in arrays, array and vector classes, and c-string; Functions, Overloading; Code Organization and using Namespaces</li>
+<li> Week 5: Pointers; Multi-dimensional Arrays and Double Pointers; C-Strings and String Manipulation Libraries</li>
+<li> Week 6: Dynamic memory allocation; Structures with pointer, enumerations, Unions, Bit-fields</li>
+<li> Week 7: Debugging (gnu debugger, and ddd), Memory Leak (valgrind); Standard Template Library</li>
+<li> Week 8: Standard Template Library (containers, iterators and algorithms) and Lamda expressions; Exceptions</li>
+<li> Week 9: Classes; Inheritance and Operator overloading; Object-oriented design</li>
+<li> Week 10: Inheritance and polymorphism; More object-oriented design; vtables and vpointers </li>
+<li> Week 11: Special members (rule of 3 and rule of 5); Smart pointers (unique vs shared & weak pointers) </li>
+<li> Week 12: Generic Programming with Templates, Template-based Data Structures; </li>
+<li> Week 13: Miscellaneous Topics: Test Driver Development, Code Coverage; Multi-threading and Asynchronous Programming in C++</li>
+<li> Week 14: Advanced Topics: L-value and R-value references, Perfect Forwarding with Variadic Template Arguments, Building C++ Libraries, </li>
+    </ul>                        <p> The weekly outline / schedule can be found on Canvas.</p>
+	</div>
+
+		<div class="school-section">
+                        <h1>Grading</h1>
+
+                        <p>
+				My general philosophy is: <strong>Your learn programming by doing programming!</strong> To that effect, you will have the opportunity to demonstrate your knowledge of the course materials through regular coding work. Some of the work may have to be completed in groups.
+			</p>
+
+			<p>The final grade for this course will be
+                        calculated as a weighted average of scores for
+                        practice activities, weekly homeworks, and final project, to be computed as follows:
+<ul>
+  <li>Practice Activities: 15%</li>
+  <li>Weekly Homeworks: 70%</li>
+  <li>Final Project: 15% </li>
+</ul>
+</p>
+
+			<h2>Grading Scale</h2>
+
+			<div class="row">
+				<div class="col-md-1"><code>A</code></div>
+				<div class="col-md-2"><samp>[93 - 100]</samp></div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-1"><code>A-</code></div>
+				<div class="col-md-2"><samp>[90 - 93)</samp> </div>
+                                <div>(that is, 90 &le; your average
+				&lt; 93, etc.)</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-1"><code>B+</code></div>
+				<div class="col-md-2"><samp>[87 - 90)</samp></div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-1"><code>B</code></div>
+				<div class="col-md-2"><samp>[83 - 87)</samp></div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-1"><code>B-</code></div>
+				<div class="col-md-2"><samp>[80 - 83) </samp></div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-1"><code>C+</code></div>
+				<div class="col-md-2"><samp>[77 - 80)</samp></div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-1"><code>C</code></div>
+				<div class="col-md-2"><samp>[73 - 77)</samp></div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-1"><code>C-</code></div>
+				<div class="col-md-2"><samp>[70 - 73)</samp></div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-1"><code>D+</code></div>
+				<div class="col-md-2"><samp>[67 - 70)</samp></div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-1"><code>D</code></div>
+				<div class="col-md-2"><samp>[63 - 67)</samp></div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-1"><code>D-</code></div>
+				<div class="col-md-2"><samp>[60 - 63)</samp></div>
+                        </div>
+
+			<div class="row">
+				<div class="col-md-1"><code>F</code></div>
+				<div class="col-md-2"><samp>[0 - 60)</samp></div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-1">&nbsp;</div>
+			</div>
+
+			<p>
+				Scores will not be rounded; however, a curve may be introduced at the Instructor's discretion.
+</p>
+
+<h2>Attendance</h2>
+<p>
+<ul>
+<li>All students are required to attend all lectures.</li> 
+<li><strong>Attendance will be required to receive any credit on practice activities.</strong></li>
+<li>Sickness or other unplanned or extraordinary events happen and will be dealt with individually. It is your responsibility to ensure your situation is known to the Instructor as soon as reasonably possible. NU's <a
+href="https://catalog.northeastern.edu/undergraduate/academic-policies-procedures/attendance-requirements/">absence policy</a> provides related details.</li>
+</ul>			
+
+<h2>Late Work and Makeup Policy</h2>
+<p>
+<ul>
+    <li>No Late work will be accepted for Practice Activities and Final Project.</li>
+	<li>There will be no makeup for Practice Activities and Final Project.</li>
+    <li>Weekly Assignments may be submitted late without excuse for up to 24 hrs but will incur a 15% penalty. No submission will be accepted after 24 hrs.</li>
+<li>For weekly assignments, you will have ONE makeup opportunity during designated week (details will be announced in class during the second half of the semester.) </li>
+</ul>
+
+<h2>Final Project</h2>
+<ul>
+	<li>Final Project is <strong>REQUIRED</strong> and failure to submit the project will result in ‘F’ for the course. There is no exam in this course.</li>
+</ul>		</div>
+		
+		<!-- Just some space for prettiness :) -->
+		<div style="padding-bottom: 40px"></div>	
+
+		<div class="school-footer">
+			<footer>
+				<small><em>
+					<script>
+						document.write("This page was last modified on: " + document.lastModified +"");
+					</script>
+				</em></small>
+			</footer>
+		</div>
+	</div>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/settings.js"></script>
+	<script>
+
+
+		$(document).ready(function(){
+
+			// enable tooltips
+			$('[data-toggle="tooltip"]').tooltip();
+
+			// prepare the page based upon settings
+			settingsReady();
+
+		});
+	</script>
+</body>
+</html>
