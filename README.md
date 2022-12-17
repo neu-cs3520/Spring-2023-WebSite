@@ -1,2 +1,2 @@
-# Fall-2022-WebSite
-Website for CS3520 (Fall 2022) Northeastern University
+# Spring-2023-WebSite
+Website for CS3520 Spring 2023) Northeastern University

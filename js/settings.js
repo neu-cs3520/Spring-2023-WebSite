@@ -4,7 +4,7 @@ var vars = {
   'classNum': 'CS3520',
   'className': 'Programming in C++',
   'semester': 'Spring 2023',
-  'section': '1',
+  'section': '',
 };
 
 // FIXME
