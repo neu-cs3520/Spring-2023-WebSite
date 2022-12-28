@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--
+	FIXME for a new class...
+	 1. In js/settings.js change class information
+	    and optionally add pages - done
+	 2. Update meeting time/location(s) + link(s)
+	 3. Update instruction team
+	 4. Update course goals/outcomes
+	 5. Update evaluation (grading scale for G vs UG!)
+	 6. Update schedule
+	 7. whatever else :)
+
+	Useful classes...
+	 school-section: creates a new block, with h1 for title
+	 keyvalue: within a school-section, creates a table with first column bolded
+	           and no borders
+-->
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title></title>
+
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="img/favicon.ico" type="image/x-icon">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/custom.css" rel="stylesheet">
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+	  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+	  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+</head>
+
+<body>
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container">
+			<button type="button" class="navbar-toggle navbar-right" data-toggle="collapse" data-target="#myNavbar"
+				id="burger">
+				<span class="icon-bar" style="background-color: white"></span>
+				<span class="icon-bar" style="background-color: white"></span>
+				<span class="icon-bar" style="background-color: white"></span>
+			</button>
+
+			<div class="navbar-header">
+				<a class="navbar-brand" href="index.html">
+					<span class="hidden-xs" id="brand-big"></span>
+					<span class="visible-xs" id="brand-small"></span>
+				</a>
+			</div>
+
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav navbar-right">
+				</ul>
+			</div>
+
+		</div>
+	</nav>
+
+	<div class="container">
+		<div class="school-header">
+			<img id="logo" class="img-responsive" src="img/NU_khoury.png" />
+
+			<div id="info" class="row">
+				<div class="col-md-2"><span class="var-semester"></span></div>
+				<div class="col-md-2"><span class="var-section"></span></div>
+			</div>
+		</div>
+
+		<div class="school-section">
+			<!-- FIXME -->
+			<h1>Welcome!</h1>
+
+			<p>	This is the home page for Section 1 of CS 3520 (Programming in C++) in the Spring 2023 semester. All materials associated with this course (lecture notes, related resources, assignments and projects etc.) will be made available through <a href="https://northeastern.instructure.com/courses/133157">Canvas</a>.
+			</p>
+			<br>
+
+			<h1>Meeting Times & Locations</h1>
+			<p>
+				This is an in-person class held on-ground at the Boston campus and all students are required to attend the live classes. Lectures will consist of combination of coding sessions or demos, review of slides, and practice exercises and students should bring a laptop to the class so they can work along. 
+			</p>
+
+			<div class="col-sm-12">
+				<!-- <table class="table keyvalue"> -->
+				<table>
+					<tr>
+						<td width="200px">Section 1 </td>
+						<td width="800px">Mondays, Wednesdays and Thursday 10:30am - 11:35am</td>
+						<td width="500px"><it>Behrakis Health Sciences Center, Room 310<br> (BK 310)</a></it></td>
+					</tr>
+				</table>
+			</div>
+
+			<!-- FIXME -->
+			<div class="col-sm-8">
+			<h1>Instructor</h1>
+			<table class="table keyvalue">
+			<tr>
+				<td>	
+			<div class="col-sm-2"> <img src="img/abhutta2.jpg" class="img-responsive img-rounded" /> 
+			</div>
+			
+			<div class="col-sm-2">Dr. Adeel A. Bhutta<br>
+			<div class="school-normal">a.bhutta @ northeas...edu
+                        <br><br>
+				<div class="school-normal">Office Hours: Mon and Thur 1:30pm-230pm (in person only) or by appointment.
+				</div>								
+				</td>
+			</tr>
+			</table>
+		</div>
+	</div>			
+			<div class="col-sm-12">
+				<table class="table keyvalue">
+				<table>
+			</div>
+
+	<div class="school-section">
+
+		<h1>Communication</h1>
+		<ul>
+			<li>Course materials will be distributed via Canvas. Weekly learning modules will be posted in the
+				Modules tab. Assignments will be in the Assignments tab and other materials may be in the Files tab.</p>
+			</li>
+			<li>Contact information of Teaching Assistants and the schedule of office hours will be posted on Canvas. </p>
+			</li>
+			<li>We will use Piazza for questions about assignments, logistics, etc. Sign up link is available on Canvas. We will also
+				auto-enroll you based on the information we get from the Registrar office, at the start of the semester.</p>
+			</li>
+		</ul>
+
+	</div>
+		<div class="school-section">
+		<h1>Your Responsibilities</h1>
+
+			<p> Each week, you will be expected to:
+	<ul>			
+		<li> Attend every class and complete any practice activities assigned during the lecture. </li>
+		<li> Textbook reading before class has proven to significantly enhance student learning. After the class, complete the assigned textbook reading while looking over the related source code closely. You should also review slides & source code from the reference book along with ALL of the posted resources.</li> 
+		<li>Then start working on the assignment for the week. </li>
+		<li>Attend office hours to clarify concepts. Use piazza to ask questions about everything else.			</li>
+		<li>It is also your responsibility to be familiar with all <a
+			href="policies.html" >course policies</a> including the ones about Academic Integrity.
+		</li>
+ 	</ul>
+                 </div>
+
+		<!-- Just some space for prettiness :) -->
+		<div style="padding-bottom: 40px"></div>
+
+
+	<div class="school-section">
+
+		<div class="school-footer">
+			<footer>
+				<small><em>
+						<script>
+							document.write("This page was last modified on: " + document.lastModified + "");
+						</script>
+					</em></small>
+			</footer>
+		</div>
+	</div>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/settings.js"></script>
+	<script>
+
+
+		$(document).ready(function () {
+
+			// enable tooltips
+			$('[data-toggle="tooltip"]').tooltip();
+
+			// prepare the page based upon settings
+			settingsReady();
+
+		});
+	</script>
+</body>
+
+</html>
